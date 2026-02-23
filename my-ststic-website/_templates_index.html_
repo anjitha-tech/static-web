@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Home - My Static Site{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <h1>Welcome to My Static Site</h1>
+    <p>This is a simple Python-based static website.</p>
+    <button class="cta-button">Get Started</button>
+</section>
+{% endblock %}
